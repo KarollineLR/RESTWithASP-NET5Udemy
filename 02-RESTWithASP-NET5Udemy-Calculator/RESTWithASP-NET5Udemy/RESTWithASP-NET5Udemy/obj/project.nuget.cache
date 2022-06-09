@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kALGOEVuv8OPCV9QTJN7AP1gGS3g4vLwDdJmixihckgbdyhtCs4M3I1D6Nz+rU4GCoe6GGw+rHxMQia5OzrF9w==",
+  "success": true,
+  "projectFilePath": "C:\\desenvolvimento\\API\\RESTwithASP-NET5Udemy\\RESTWithASP-NET5Udemy\\02-RESTWithASP-NET5Udemy-Calculator\\RESTWithASP-NET5Udemy\\RESTWithASP-NET5Udemy\\RESTWithASP-NET5Udemy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karol\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
