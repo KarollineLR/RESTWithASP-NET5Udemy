@@ -1,67 +1,59 @@
 using Microsoft.AspNetCore.Mvc;
+using RESTWithASP_NET5Udemy.Model;
+using RESTWithASP_NET5Udemy.Services;
 
 namespace RESTWithASP_NET5Udemy.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class CalculatorController : ControllerBase
+    [Route("api/[controller]")]
+    public class PersonController : ControllerBase
     {
 
-        private readonly ILogger<CalculatorController> _logger;
+        private readonly ILogger<PersonController> _logger;
+        private IPersonService _personService;
 
-        public CalculatorController(ILogger<CalculatorController> logger)
+        public PersonController(ILogger<PersonController> logger, IPersonService personService)
         {
             _logger = logger;
+            _personService = personService;
         }
 
-        [HttpGet("sum/{firstNumber}/{secondNumber}")]
-        public IActionResult Get(string firstNumber, string secondNumber)
+        [HttpGet]
+        public IActionResult Get()
         {
-            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
-            {
-                var first = ConvertToDecimal(firstNumber);
-                var second = ConvertToDecimal(secondNumber);
-                var first_double = decimal.ToDouble(first);
-                var second_double = decimal.ToDouble(second);
-
-                var sum = first + second;
-                var sub = first - second;
-                var mult = first * second;
-                var div = first / second;
-                var raiz_first = Convert.ToDecimal(Math.Sqrt(first_double));
-                var raiz_second = Convert.ToDecimal(Math.Sqrt(second_double));
-                var media = (first + second) / 2;
-                var total = "Subtração: " + sub.ToString() +
-                    "\r\nSoma: " + sum.ToString() +
-                    "\r\nMultiplicação: " + mult.ToString() +
-                    "\r\nDivisão: " + div.ToString() +
-                    "\r\nRaiz do 1°: " + raiz_first +
-                    "\r\nRaiz do 2°: " + raiz_second +
-                    "\r\nMedia: " + media;
-                return Ok(total);
-            }
-            return BadRequest("Invalid Input");
+           return Ok(_personService.FindAll());
         }
 
-        private decimal ConvertToDecimal(string strNumber)
+        [HttpGet("{id}")]
+        public IActionResult Get(long id)
         {
-            decimal decimalValue;
-            if (decimal.TryParse(strNumber, out decimalValue))
-            {
-                return decimalValue;
-            }
-            return 0;
+            var person = _personService.FindByID(id);
+            if (person == null) return NotFound();
+            return Ok(person);
         }
 
-        private bool IsNumeric(string strNumber)
+        [HttpPost]
+        public IActionResult Post([FromBody] Person person)
         {
-            double number;
-            bool isNumber = double.TryParse(
-                strNumber,
-                System.Globalization.NumberStyles.Any,
-                System.Globalization.NumberFormatInfo.InvariantInfo,
-                out number);
-            return isNumber;
+            
+            if (person == null) return BadRequest();
+            return Ok(_personService.Create(person));
+        } 
+        
+        [HttpPut]
+        public IActionResult Put([FromBody] Person person)
+        {
+            
+            if (person == null) return BadRequest();
+            return Ok(_personService.Update(person));
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(long id)
+        {
+            _personService.Delete(id);
+            return NoContent();
+        }
+
     }
 }

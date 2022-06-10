@@ -4,7 +4,7 @@ namespace RESTWithASP_NET5Udemy.Services.Implementations
 {
     public class PersonServiceImplementation : IPersonService
     {
-        private olatile int count;
+        private volatile int count;
 
         public Person Create(Person person)
         {
