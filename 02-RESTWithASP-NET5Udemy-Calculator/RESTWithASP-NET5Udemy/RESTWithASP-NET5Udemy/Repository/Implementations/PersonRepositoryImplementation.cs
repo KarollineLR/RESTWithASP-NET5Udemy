@@ -1,13 +1,13 @@
 ﻿using RESTWithASP_NET5Udemy.Model;
 using RESTWithASP_NET5Udemy.Model.Context;
 
-namespace RESTWithASP_NET5Udemy.Services.Implementations
+namespace RESTWithASP_NET5Udemy.Repository.Implementations
 {
-    public class PersonServiceImplementation : IPersonService
+    public class PersonRepositoryImplementation : IPersonRepository
     {
         private MySQLContext _context;
 
-        public PersonServiceImplementation(MySQLContext context)
+        public PersonRepositoryImplementation(MySQLContext context)
         {
             _context = context;
         }
@@ -56,7 +56,7 @@ namespace RESTWithASP_NET5Udemy.Services.Implementations
             return person;
         }
 
-        private bool Exists(long id)
+        public bool Exists(long id)
         {
             return _context.Persons.Any(p => p.Id == id);
         }

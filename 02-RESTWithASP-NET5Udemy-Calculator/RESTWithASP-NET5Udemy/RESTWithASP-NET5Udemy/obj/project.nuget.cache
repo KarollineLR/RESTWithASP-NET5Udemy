@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Yq8n3sHwroiybP+P48nlTJUVrGn/8yY1Hf5rAQG7xp8hkEC77XRsy6JEDfoTXs7Ca7PaHWXrsven7wWeozA/MA==",
+  "dgSpecHash": "wOPLqSnCZscYPUNyGrJOgOJMpi9LnXiGd1QYU+oPhthCJvjzmzxfms/XsxlTA3lg8/SJULH/dgd6t5LdHBcY/w==",
   "success": true,
   "projectFilePath": "C:\\desenvolvimento\\API\\RESTwithASP-NET5Udemy\\RESTWithASP-NET5Udemy\\02-RESTWithASP-NET5Udemy-Calculator\\RESTWithASP-NET5Udemy\\RESTWithASP-NET5Udemy\\RESTWithASP-NET5Udemy.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
