@@ -1,15 +1,15 @@
-﻿using RESTWithASP_NET5Udemy.Model;
+﻿using RESTWithASP_NET5Udemy.Data.VO;
+using RESTWithASP_NET5Udemy.Model;
 
 namespace RESTWithASP_NET5Udemy.Business
   
 {
     public interface IBookBusiness
     {
-        Book Create(Book person);
-        Book FindByID(long id);
-        List<Book> FindAll();
-        Book Update(Book person);
+        BookVO Create(BookVO book);
+        BookVO FindByID(long id);
+        List<BookVO> FindAll();
+        BookVO Update(BookVO book);
         void Delete(long id);
-
     }
 }

@@ -1,0 +1,222 @@
+﻿++Solução 'RESTWithASP-NET5Udemy' ‎(1 de 1 projeto)
+i:{00000000-0000-0000-0000-000000000000}:RESTWithASP-NET5Udemy.sln
+++RESTWithASP-NET5Udemy
+i:{00000000-0000-0000-0000-000000000000}:RESTWithASP-NET5Udemy
+++Connected Services 
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>331
+++Dependências
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>330
+++Analisadores
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:analisadores
+++Microsoft.AspNetCore.Analyzers
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\users\karol\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Estruturas
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:estruturas
+++Pacotes
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:pacotes
+++DotNetXtensions.Cryptography (3.4.0)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>413
+++Evolve (3.1.0-alpha7)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>354
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.6)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>348
+++Microsoft.AspNetCore.Mvc.Formatters.Xml (2.2.0)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>350
+++Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer (5.0.0)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>343
+++MySql.Data (8.0.29)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>349
+++Pomelo.EntityFrameworkCore.MySql (6.0.1)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>352
+++Serilog (2.11.1-dev-01397)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>351
+++Serilog.AspNetCore (6.0.0-dev-00265)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>344
+++Serilog.Sinks.Console (4.0.2-dev-00890)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>347
+++Swashbuckle.AspNetCore.Swagger (6.3.1)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>345
+++Swashbuckle.AspNetCore.SwaggerGen (6.3.1)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>346
+++Swashbuckle.AspNetCore.SwaggerUI (6.3.1)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>353
+++System.Security.Cryptography.Algorithms (4.3.1)
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>392
+++Properties
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\properties\
+++launchSettings.json
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\properties\launchsettings.json
+++Business
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\business\
+++Implementations
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\business\implementations\
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\repository\implementations\
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\services\implementations\
+++BookBusinessImplementation.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\business\implementations\bookbusinessimplementation.cs
+++LoginBusinessImplementation.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\business\implementations\loginbusinessimplementation.cs
+++PersonBusinessImplementation.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\business\implementations\personbusinessimplementation.cs
+++IBookBusiness.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\business\ibookbusiness.cs
+++ILoginBusiness.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\business\iloginbusiness.cs
+++IPersonBusiness.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\business\ipersonbusiness.cs
+++Configurations
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\configurations\
+++TokenConfiguration.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\configurations\tokenconfiguration.cs
+++Controllers
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\controllers\
+++AuthController.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\controllers\authcontroller.cs
+++BookController.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\controllers\bookcontroller.cs
+++PersonController.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\controllers\personcontroller.cs
+++Data
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\
+++Converter
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\converter\
+++Contract
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\converter\contract\
+++IParser.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\converter\contract\iparser.cs
+++Implementation
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\converter\implementation\
+++BookConverter.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\converter\implementation\bookconverter.cs
+++PersonConverter.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\converter\implementation\personconverter.cs
+++VO
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\vo\
+++BookVO.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\vo\bookvo.cs
+++PersonVO.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\vo\personvo.cs
+++TokenVO.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\vo\tokenvo.cs
+++UserVO.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\data\vo\uservo.cs
+++db
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\
+++dataset
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\dataset\
+++V2__Populate_Table__Person .sql
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\dataset\v2__populate_table__person .sql
+++V4__Populate_Table__Book .sql
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\dataset\v4__populate_table__book .sql
+++V6__Populate_Table__User.sql
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\dataset\v6__populate_table__user.sql
+++migrations
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\migrations\
+++V1__Create_Table__Person.sql
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\migrations\v1__create_table__person.sql
+++V3__Create_Table__Book.sql
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\migrations\v3__create_table__book.sql
+++V5__Create_Table__User.sql
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\db\migrations\v5__create_table__user.sql
+++Hypermedia
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\
+++Abstract
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\abstract\
+++IResponseEnricher.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\abstract\iresponseenricher.cs
+++ISupportHyperMedia.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\abstract\isupporthypermedia.cs
+++Constants
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\constants\
+++HttpActionVerb.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\constants\httpactionverb.cs
+++RelationType.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\constants\relationtype.cs
+++ResponseTypeFormat.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\constants\responsetypeformat.cs
+++Envicher
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\envicher\
+++BookEnricher.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\envicher\bookenricher.cs
+++PersonEnricher.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\envicher\personenricher.cs
+++Filters
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\filters\
+++HyperMediaFilter.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\filters\hypermediafilter.cs
+++HyperMediaFilterOptions.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\filters\hypermediafilteroptions.cs
+++ContentResponseEnricher.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\contentresponseenricher.cs
+++HyperMediaLink.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\hypermedia\hypermedialink.cs
+++Model
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\model\
+++Base
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\model\base\
+++BaseEntity.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\model\base\baseentity.cs
+++Context
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\model\context\
+++MySQLContext.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\model\context\mysqlcontext.cs
+++Book.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\model\book.cs
+++Person.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\model\person.cs
+++User.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\model\user.cs
+++Repository
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\repository\
+++Generic
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\repository\generic\
+++GenericRepository.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\repository\generic\genericrepository.cs
+++IRepository.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\repository\generic\irepository.cs
+++IUserRepository.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\repository\iuserrepository.cs
+++MySqlContext.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\repository\mysqlcontext.cs
+++UserRepository.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\repository\userrepository.cs
+++Services
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\services\
+++TokenServices.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\services\implementations\tokenservices.cs
+++ITokenServices.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\services\itokenservices.cs
+++appsettings.json
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\appsettings.json
+++Program.cs
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\program.cs
+++Nenhuma dependência de serviço descoberta
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:>332
+++Microsoft.AspNetCore.App
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\microsoft.netcore.app
+++appsettings.Development.json
+i:{d67d8a68-4816-40fe-95fe-eacbf83d0475}:c:\desenvolvimento\api\restwithasp-net5udemy\restwithasp-net5udemy\02-restwithasp-net5udemy-calculator\restwithasp-net5udemy\restwithasp-net5udemy\appsettings.development.json

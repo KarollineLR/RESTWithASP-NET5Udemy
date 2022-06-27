@@ -1,4 +1,6 @@
-﻿namespace RESTWithASP_NET5Udemy.Model.Base
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace RESTWithASP_NET5Udemy.Model.Base
 {
     public class BaseEntity
     {

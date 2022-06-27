@@ -1,11 +1,14 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using RESTWithASP_NET5Udemy.Model;
 using RESTWithASP_NET5Udemy.Business;
+using RESTWithASP_NET5Udemy.Data.VO;
+using RESTWithASP_NET5Udemy.Hypermedia.Filters;
 
 namespace RESTWithASP_NET5Udemy.Controllers
 {
     [ApiVersion("1")]
     [ApiController]
+    [Authorize("Bearer")]
     [Route("api/[controller]/v{version:apiVersion}")]
     public class PersonController : ControllerBase
     {
@@ -20,12 +23,24 @@ namespace RESTWithASP_NET5Udemy.Controllers
         }
 
         [HttpGet]
+        [ProducesResponseType((200), Type = typeof(List<PersonVO>))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
         public IActionResult Get()
         {
             return Ok(_personBusiness.FindAll());
+
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+
         public IActionResult Get(long id)
         {
             var person = _personBusiness.FindByID(id);
@@ -34,7 +49,12 @@ namespace RESTWithASP_NET5Udemy.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Person person)
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+
+        public IActionResult Post([FromBody] PersonVO person)
         {
 
             if (person == null) return BadRequest();
@@ -42,7 +62,12 @@ namespace RESTWithASP_NET5Udemy.Controllers
         }
 
         [HttpPut]
-        public IActionResult Put([FromBody] Person person)
+        [ProducesResponseType((200), Type = typeof(PersonVO))]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [TypeFilter(typeof(HyperMediaFilter))]
+
+        public IActionResult Put([FromBody] PersonVO person)
         {
 
             if (person == null) return BadRequest();
@@ -50,6 +75,10 @@ namespace RESTWithASP_NET5Udemy.Controllers
         }
 
         [HttpDelete("{id}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+
         public IActionResult Delete(long id)
         {
             _personBusiness.Delete(id);
