@@ -25,7 +25,7 @@ namespace RESTWithASP_NET5Udemy.Business.Implementations
         public TokenVO ValidateCredentials(UserVO userCredentials)
         {
             var user = _repository.ValidateCredentials(userCredentials);
-            if(user == null)return null;
+            if (user == null) return null;
             var claims = new List<Claim>
             {
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
@@ -41,9 +41,7 @@ namespace RESTWithASP_NET5Udemy.Business.Implementations
             _repository.RefreshUserInfo(user);
 
             DateTime createDate = DateTime.Now;
-            //DateTime futureDate = DateTime.Now.AddHours(3);
             DateTime expirationDate = createDate.AddMinutes(_configuration.Minutes);
-
 
             return new TokenVO(
                 true,
@@ -52,6 +50,44 @@ namespace RESTWithASP_NET5Udemy.Business.Implementations
                 accesseToken,
                 refreshToken
                 );
+        }
+
+        public TokenVO ValidateCredentials(TokenVO token)
+        {
+            var accesseToken = token.AccessToken;
+            var refreshToken = token.RefreshToken;
+
+            var principal = _tokenServices.GetPrincipalFromExpiredToken(accesseToken);
+
+            var username = principal.Identity.Name;
+
+            var user = _repository.ValidateCredentials(username);
+
+            if (user == null ||
+                user.RefreshToken != refreshToken ||
+                user.RefreshTokenExpiryTime <= DateTime.Now) return null;
+
+            accesseToken = _tokenServices.GenerateAccessToken(principal.Claims);
+            refreshToken = _tokenServices.GenerateRefreshToken();
+
+            user.RefreshToken = refreshToken;
+            _repository.RefreshUserInfo(user);
+
+            DateTime createDate = DateTime.Now;
+            DateTime expirationDate = createDate.AddMinutes(_configuration.Minutes);
+
+            return new TokenVO(
+                true,
+                createDate.ToString(DATE_FORMAT),
+                expirationDate.ToString(DATE_FORMAT),
+                accesseToken,
+                refreshToken
+                );
+        }
+
+        public bool RevokeToken(string username)
+        {
+            return _repository.RevokeToken(username);
         }
     }
 }

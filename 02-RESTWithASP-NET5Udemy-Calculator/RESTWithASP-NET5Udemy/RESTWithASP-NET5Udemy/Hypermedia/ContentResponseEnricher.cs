@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.Routing;
 using RESTWithASP_NET5Udemy.Hypermedia.Abstract;
+using RESTWithASP_NET5Udemy.Hypermedia.Utils;
 using System.Collections.Concurrent;
 
 namespace RESTWithASP_NET5Udemy.Hypermedia
@@ -14,7 +15,7 @@ namespace RESTWithASP_NET5Udemy.Hypermedia
         }
         public bool CanEnrich(Type contentType)
         {
-            return contentType == typeof(T) || contentType == typeof(List<T>);
+            return contentType == typeof(T) || contentType == typeof(List<T>) || contentType == typeof(PagedSearchVO<T>); ;
 
         }
         protected abstract Task EnrichModel(T content, IUrlHelper urlHelper);
@@ -43,10 +44,17 @@ namespace RESTWithASP_NET5Udemy.Hypermedia
                         EnrichModel(element, urlHelper);
                     });
                 }
-
-                await Task.FromResult<object>(null);
-
+                else if (okObjectResult.Value is PagedSearchVO<T> pagedSearch)
+                {
+                    Parallel.ForEach(pagedSearch.List.ToList(), (element) =>
+                      {
+                          EnrichModel(element, urlHelper);
+                      });
+                }
             }
+            await Task.FromResult<object>(null);
+
         }
     }
 }
+

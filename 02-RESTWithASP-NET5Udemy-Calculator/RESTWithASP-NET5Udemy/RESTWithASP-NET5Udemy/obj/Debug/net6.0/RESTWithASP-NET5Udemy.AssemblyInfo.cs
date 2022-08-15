@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("d4768648-f3f5-43ea-9256-2b1cce3424f3")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RESTWithASP-NET5Udemy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

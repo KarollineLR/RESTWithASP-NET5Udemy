@@ -39,6 +39,14 @@ namespace RESTWithASP_NET5Udemy.Hypermedia.Envicher
             });
             content.Links.Add(new HyperMediaLink()
             {
+                Action = HttpActionVerb.PATCH,
+                Href = link,
+                Rel = RelationType.self,
+                Type = ResponseTypeFormat.DefaultPatch
+
+            });
+            content.Links.Add(new HyperMediaLink()
+            {
                 Action = HttpActionVerb.DELETE,
                 Href = link,
                 Rel = RelationType.self,

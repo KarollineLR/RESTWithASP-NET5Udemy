@@ -13,14 +13,7 @@ namespace RESTWithASP_NET5Udemy.Repository
         {
             _context = context;
         }
-
-        public User ValidateCredentials(UserVO user)
-        {
-            var pass = Hashing.ToSHA256(user.Password);
-            var result = _context.Users.FirstOrDefault(u => u.UserName == user.UserName && u.Password == pass);
-            return result;
-        }
-        public static class Hashing
+            public static class Hashing
         {
             internal static string ToSHA256(string pass)
             {
@@ -35,6 +28,19 @@ namespace RESTWithASP_NET5Udemy.Repository
                 return sb.ToString();
             }
         }
+
+        public User ValidateCredentials(UserVO user)
+        {
+            var pass = Hashing.ToSHA256(user.Password);
+            var result = _context.Users.FirstOrDefault(u => u.UserName == user.UserName && u.Password == pass);
+            return result;
+        }
+
+        public User ValidateCredentials(string UserName)
+        {
+            return _context.Users.SingleOrDefault(u => u.UserName == UserName);
+        }
+
         public User RefreshUserInfo(User user)
         {
             if (!_context.Users.Any(p => p.Id == user.Id)) return null;
@@ -65,5 +71,16 @@ namespace RESTWithASP_NET5Udemy.Repository
 
         }
 
+        public bool RevokeToken(string UserName)
+        {
+
+            var user = _context.Users.SingleOrDefault(u => u.UserName == UserName);
+            if (user is null) return false;
+
+            user.RefreshToken = null;
+            _context.SaveChanges();
+            return true;
+
+        }
     }
 }

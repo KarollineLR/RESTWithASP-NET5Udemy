@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[6.0.6, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Formatters.Xml": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -63,6 +67,10 @@
             "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.15.1, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -119,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

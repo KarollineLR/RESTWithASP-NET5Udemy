@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iCbZYfapKDAupMbyGZ5G5pRXWKvwT93F9FpGkRy4dsZ0KeUP+fqGmVwM+RU5KSs4zuNbW378dsm9ZgSvhilcSQ==",
+  "dgSpecHash": "9GPgKAKjgnQo7F4sYmdJTQz3WIat0UCgPphxY/IEMOi0AURU8bBeug/WVJYwwYaGdrzdS/mFCXQw+Cql+/2RhA==",
   "success": true,
   "projectFilePath": "C:\\desenvolvimento\\API\\RESTwithASP-NET5Udemy\\RESTWithASP-NET5Udemy\\02-RESTWithASP-NET5Udemy-Calculator\\RESTWithASP-NET5Udemy\\RESTWithASP-NET5Udemy\\RESTWithASP-NET5Udemy.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\mysql.data\\8.0.29\\mysql.data.8.0.29.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
