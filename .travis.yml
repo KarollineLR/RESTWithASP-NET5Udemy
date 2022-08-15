@@ -4,7 +4,7 @@ language: csharp
 mono: none
 services: docker
 before_install:
-  - cd 02-RESTWithASP-NET5Udemy-Calculator/RESTWithASP-NET5Udemy
+  - cd 02-RESTWithASP-NET5Udemy-Calculator/RESTWithASP-NET5Udemy/RESTWithASP-NET5Udemy
   - echo "We are in the right folder!"
 script: 
   - docker-compose build 
